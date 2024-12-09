@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.bg{
+    width: 1100px;
+    height: 600px;
+ 
+        position: absolute; /* Position the image as a background */
+        top: 0;
+        left: 0;
+        width: 100%; /* Cover the full width of the viewport */
+        height: 100%; /* Cover the full height of the viewport */
+        z-index: -1; /* Send it behind other elements */
+        object-fit: cover; /* Ensure the image scales correctly */
+    }
+
+    .main-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around; /* Space between content */
+        align-items: center; /* Center items vertically */
+        height: 100vh; /* Full viewport height */
+        color: white; /* For visibility over the background image */
+        text-align: center;
+        /* background-color: blue; */
+    }
+    #Left-div {
+        width: 150%; /* Adjust width as needed */
+        height: 100%;
+        padding: 20px;
+        background-color: rgba(116, 15, 232, 0.6); /* Dark semi-transparent background */
+        /* border-radius: 10px; Optional: Rounded corners */
+        color: white; /* Ensure text is visible */
+        /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); Optional: Add a shadow for depth */
+    }
+
+    #right-div {
+        width: 150%; /* Adjust width as needed */
+        height: 100%;
+        padding: 20px;
+        background-color: #740fe899; /* Dark semi-transparent background */
+        /* border-radius: 10px; Optional: Rounded corners */
+        color: white; /* Ensure text is visible */
+        /* margin-left: 10px; */
+        /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); Optional: Add a shadow for depth */
+    }
+     
+    #main-heading{
+       margin-top: 150px;
+       font-size: 70px; 
+    }
+
+    #sub-heading{
+        margin-top: 30px;
+        font-size: 30px;
+    }
+
+    #left-para{
+        margin-top: 100px;
+    }
+
+    #line{
+        margin-top: 40px;
+    }
+
+    .form-div{
+        margin-right: 20px;
+        margin-top: 100px;
+        width:400px;
+        height:550px ;
+        background-color: rgba(26, 8, 46, 0.6);
+        opacity: 80%;
+        border-radius: 45px;
+    }
+    .labels{
+        font-size: larger;
+        color: azure;
+    }
+
+    form input {
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 15px; /* Space between input fields */
+        border: 1px solid #ccc; /* Add a border to inputs */
+        border-radius: 10px; /* Rounded edges for inputs */
+        font-size: 14px;
+        background-color: #fff;
+        color: #413a3a; /* Text color for inputs */
+        text-align: center;
+    }
+
+    #submit{
+        /* color: rgb(13, 13, 13); */
+        background-color: rgb(242, 242, 247);
+        width: 100px;
+        height: 40px;
+        border-radius: 5px;
+        box-shadow: #230b0b;
+        text-decoration: dashed;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-size: larger;
+        font-weight: 500;
+    }
